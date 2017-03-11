@@ -8,7 +8,7 @@ import loadPartials from '../lib/loadPartials';
 describe('loadLayouts', () => {
   it('creates an object of Handlebars templates', () => {
     return loadLayouts('test/fixtures/basic/layouts', create()).then(res => {
-      expect(res).to.have.property('default').that.is.a('function');
+      expect(res).to.have.property('default').that.is.a('string');
     });
   });
 });
