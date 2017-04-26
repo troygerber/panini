@@ -25,6 +25,13 @@ if (cli.input.length < 2) {
 }
 
 const panini = new Panini(cli.input[0], cli.input[1]);
+
+console.log(panini);
+
+if (!panini.initialized) {
+  process.exit(1);
+}
+
 panini.build();
 
 if (cli.flags.watch) {

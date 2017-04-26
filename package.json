@@ -34,6 +34,7 @@
     "path-insert": "^1.0.0",
     "path-prefix": "^1.0.0",
     "pify": "^2.3.0",
+    "pretty-print": "^1.1.0",
     "replace-ext": "^1.0.0",
     "slash": "^1.0.0",
     "template-helpers": "^0.6.7",
